@@ -1,0 +1,29 @@
+ul {
+  padding: 12px;
+  margin: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  transition: 0.5s all;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80% !important;
+  max-width: 600px;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.movie-list-poster {
+  height: 50px;
+  margin-right: 12px;
+}
